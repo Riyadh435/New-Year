@@ -79,11 +79,12 @@ body {
 /* Banner 3 */
 
 .banner3 {
-  background-image:linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.3)
-  ), url("../images/Vectorrr.png");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("../images/Vectorrr.png");
   height: 600px;
   width: auto;
   background-repeat: no-repeat;
@@ -92,7 +93,7 @@ body {
 
   display: flex;
   align-items: center;
-  gap:180px;
+  gap: 180px;
 }
 .banner3-description {
   margin-left: 150px;
@@ -171,9 +172,10 @@ body {
   margin-right: 100px;
 }
 
-.banner5 .left,.right p {
-   font-size: 18px;
-   text-align: justify;
+.banner5 .left,
+.right p {
+  font-size: 18px;
+  text-align: justify;
   width: 320px;
 }
 
@@ -202,24 +204,18 @@ body {
   border-radius: 50%;
 }
 
-.banner5 .right img{
-   margin-top: 30px;
+.banner5 .right img {
+  margin-top: 30px;
 }
-
-
 
 /* Banner 6 */
 
-
-.banner6{
+.banner6 {
   margin: 120px 0;
-  background-image: url('../images/Rectangle\ 2.png');
+  background-image: url("../images/Rectangle\ 2.png");
   background-position: bottom;
-  direction: t;
-  height: 100%;
   width: 100%;
   background-repeat: no-repeat;
-
 
   display: flex;
   align-items: center;
@@ -227,25 +223,136 @@ body {
   flex-direction: column;
 }
 
-.banner6 .description{
+.banner6 .description {
   display: flex;
   flex-direction: column;
 
   align-items: center;
 }
 
-
-.banner6 .description p{
+.banner6 .description p {
   width: 500px;
 }
 
-
-.banner6 .imges{
-  align-content: space-around;
+.banner6 .images .im1 {
+  border-radius: 20px;
+  height: 50%;
+}
+.banner6 .images .im1 {
+  margin-bottom: 400px;
 }
 
-.banner6 .images .im1{
-  height: 200px;
-  width: 200px;
+/* Banner 7 */
+.banner7 {
+  margin: 0 100px;
+}
 
+.banner7 .description h1 {
+  font-size: 50px;
+}
+
+.banner7 .description p {
+  width: 700px;
+  text-align: justify;
+  color: #070211;
+}
+
+.banner7 .card-container {
+  margin: 30px 5px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.card-container .card {
+  align-items: center;
+}
+
+.banner8 {
+  margin: 120px 0;
+  background: linear-gradient(to bottom, #ff6666, #ffffff);
+}
+
+.banner8 .description {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.banner8 .description p {
+  margin: 10px 0;
+  width: 700px;
+  text-align: center;
+}
+
+.banner8 .description .input-box {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 500px;
+ 
+}
+.banner8 .description .input-box input {
+  border-radius: 30px 0 0 30px;
+  width: 400px;
+  height: 40px;
+  border: none;
+  padding: 10px;
+  flex: 1;
+  outline: none;
+  text-align: left;
+}
+
+.banner8 .description .input-box button {
+  border-radius: 0 30px 30px 0;
+  border-color: transparent;
+  width: 120px;
+  height: 60px;
+  color: white;
+  font-weight: bold;
+  background-color: #ff0000;
+}
+
+
+
+.banner9{
+  
+ 
+  color: white;
+  background-color: #070211;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.banner9 .d1{
+
+  display: flex;
+  align-items: center;
+  align-content: space-evenly;
+}
+.banner9 .d1 ,.d2{
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  padding: 60px 0;
+  gap:400px;
+}
+
+
+.banner9 .icons{
+
+  display: flex;
+  gap:20px;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+hr{
+  color:white;
+  width: 1000px;
 }
